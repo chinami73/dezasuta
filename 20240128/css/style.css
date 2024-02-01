@@ -10,6 +10,7 @@ li{
     padding: 0 20px;
 }
 
+
 .wrap{
     max-width: 960px;
     margin: 0 auto;
@@ -19,7 +20,24 @@ li{
 
 
 .wrap>div {
-    background: #f00;
+    background: rgb(51, 18, 197);
+    height: 300px;
+    width: 31.25%;
+}
+
+
+
+
+.wrap2{
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+
+    
+.wrap2>div {
+    background: rgb(214, 8, 8);
     height: 300px;
     width: 31.25%;
 }
