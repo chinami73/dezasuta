@@ -20,12 +20,11 @@ li{
 
 
 .wrap>div {
-    background: rgb(51, 18, 197);
+    background: rgb(4, 47, 240);
     height: 300px;
     width: 31.25%;
+    margin-bottom: 20px;
 }
-
-
 
 
 .wrap2{
@@ -33,6 +32,8 @@ li{
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+}
 
 
     
@@ -40,4 +41,5 @@ li{
     background: rgb(214, 8, 8);
     height: 300px;
     width: 31.25%;
+    margin-bottom: 20px;
 }
