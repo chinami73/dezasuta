@@ -46,59 +46,64 @@ img {
 
 body{background-color: #eeeeee;}
 
-.common{max-width: 960PX;
+.common{
+        /* 要素の横幅 */
+        max-width: 960PX;
         margin: 0 auto ;
-        Text-align: Center;
+        text-align: Center;
         
 }
 
 
 
 
-h1{margin: 50PX 30PX;
+h1{margin: 50px 30px;
     color: #377a6d;
 
 }
 
-.warps{
-    /* 要素の横幅 */
-    width: 960px ;
-    
-    /* ●を消す */
-    list-style: none;   
+.warps{ 
     /* 横並び */
     display: flex;
-    Text-align: Center
+    justify-content: space-between;
 
 }
 
 
-.warp{margin: 0PX 5PX;
-    background-color: #fff;
+.warp{background-color: #fff;
+    width: 31%;
 }
 
 
-.text{Text-align: left
+.text{text-align: left
       
 }
 
 h2{ color: #377a6d;
     border-left: solid 10px;
-    margin-left: 10px;
-    padding: 0 5px;}
+    padding: 0 5px;
+    margin-bottom: 10px;
+}
 
+p{
+    line-height: 1.5;}
+
+.text{
+    padding: 10px;
+}
 
 /* レスポンシブ */
 @media screen and (max-width: 767px){
     .warps{
        margin-bottom: 10px;
        display:block;
+       padding: 0 20px;
 }
-    .wrap{
+    .warp{
         margin-bottom: 20px;
         width: 100%;
     }
-    .wrap>img{
+    .warp>img{
         width: 100%;
     }
     }
